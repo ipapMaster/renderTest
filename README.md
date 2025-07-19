@@ -22,7 +22,8 @@ gevent```
 
 4. В web.py:
 
-```from flask import Flask
+```Python
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -31,7 +32,8 @@ def hello():
     return "Hello, Render!"
 
 if __name__ == '__main__':
-    app.run()```
+    app.run()
+```
 
 
 Пошаговая инструкция по развертыванию
