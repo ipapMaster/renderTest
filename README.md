@@ -16,9 +16,11 @@
 
 3. В requirements.txt указать:
 
-```Flask
+```
+Flask
 gunicorn
-gevent```
+gevent
+```
 
 4. В web.py:
 
