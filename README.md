@@ -3,11 +3,13 @@
 
 1. Cтруктура проекта выглядит так:
 
-```/your-project
+```
+/your-project
 ├── Procfile
 ├── web.py
 ├── requirements.txt
-└──...```
+└──...
+```
 
 2. В файле Procfile, должно быть:
 ```web: gunicorn -b 0.0.0.0:$PORT web:app```
