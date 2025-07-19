@@ -4,9 +4,13 @@
 1. Cтруктура проекта выглядит так:
 
 /your-project
+
 ├── Procfile
+
 ├── web.py
+
 ├── requirements.txt
+
 └──...
 
 2. В файле Procfile, должно быть:
